@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Friends & Family</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      background: #fff;
+      padding: 2rem 5%;
+    }
+    h1 {
+      color: #d192b0;
+      text-align: center;
+      font-size: 3rem;
+      margin-left: 3rem;
+
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: calc(20% - 1rem);
+      border-radius: 1rem;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #d192b0;
+    }
+    .back-link {
+      display: block;
+      margin: 2rem auto;
+      text-align: center;
+      font-size: 1.8rem;
+      color: #a2527d;
+      text-decoration: none;
+      width: max-content;
+      border: 2px solid #a2527d;
+      padding: 0.5rem 1.5rem;
+      border-radius: 0.5rem;
+      transition: background 0.3s, color 0.3s;
+    }
+    .back-link:hover {
+      background: #a2527d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Friends & Family</h1>
+
+ <div class="gallery">
+    <img src="fam1.jpg" alt="Myself 1" />
+    <img src="fam2.jpg" alt="Myself 2" />
+    <img src="fam3.jpg" alt="Myself 3" />
+    <img src="fam4.jpg" alt="Myself 4" />
+    <img src="fam5.jpg" alt="Myself 5" />
+    <img src="fam6.jpg" alt="Myself 6" />
+    <img src="fam7.jpg" alt="Myself 7" />
+    <img src="fam8.jpg" alt="Myself 8" />
+    <img src="fam9.jpg" alt="Myself 9" />
+    <img src="fam10.jpg" alt="Myself 10" />
+
+  <a href="index.html#albums" class="back-link">← Back to Albums</a>
+
+</body>
+</html>
